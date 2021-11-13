@@ -19,6 +19,7 @@ jobs:
       - name: MVN build
         run: |
           ls
+          cd ./bit.txt
           cat ./testng.xml
           MVN clean
           
