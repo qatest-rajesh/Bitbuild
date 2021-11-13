@@ -18,6 +18,5 @@ jobs:
           
       - name: MVN build
         run: |
-          cd mobileautomationframework
-          MVN test
+          cat ./testng.xml
           
