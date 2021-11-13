@@ -18,6 +18,7 @@ jobs:
           
       - name: MVN build
         run: |
+          ls
           cat ./testng.xml
           MVN clean
           
